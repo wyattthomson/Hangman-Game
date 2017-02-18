@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hangman Game</title>
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center"><strong>IT'S ALMOST 5 O'CLOCK AND TIME TO TEST THE NEW GUY ON NAMES!</strong></h1>
+    </div>
+    <div class="container">
+      <div class="row-6">
+        <div class="col-sm-16">
+          <p>Remaining Guesses: <span id="guesses-left"></span></p>
+          <p>Strikes: <span id="wrong-guesses"></span></p>
+          <p># of Close Calls: <span id="win-counter"></span></p>
+          <p># of Jobs Lost: <span id="loss-counter"></span></p>
+          <h3 id="word-blank"></h3>
+        </div><img alt="" class="img stick man" src="assets/images/guy.jpeg" style="position:absolute; top:400px; float: left; z-index: -60"> 
+        <script src="assets/javascript/game.js">
+        </script>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
